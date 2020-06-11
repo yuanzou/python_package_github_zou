@@ -1,30 +1,5 @@
 import time
 
-#--------------------------------------------------------------
-if 1:
-    import gevent
-
-
-    def func1():
-        print('---from func1: 1',time.time())
-        gevent.sleep(5)
-        print('---from func1: 2',time.time())
-        gevent.sleep(5)
-
-
-    def func2():
-        print('from func2: 1',time.time())
-        gevent.sleep(0.1)
-        print('from func2: 2',time.time())
-
-
-    gevent.joinall([
-        gevent.spawn(func1),
-        gevent.spawn(func2),
-    ])
-    print(time.time())
-
-
 if 1:
     from greenlet import greenlet
     import time
