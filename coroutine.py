@@ -1,7 +1,7 @@
 import time
 
 #--------------------------------------------------------------
-if 0:
+if 1:
     import gevent
 
 
@@ -25,7 +25,7 @@ if 0:
     print(time.time())
 
 
-if 0:
+if 1:
     from greenlet import greenlet
     import time
 
