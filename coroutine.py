@@ -1,6 +1,6 @@
 import time
 
-if 1:
+if 0:
     from greenlet import greenlet
     import time
 
